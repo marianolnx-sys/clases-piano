@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases de Piano</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Clases de Piano</h1>
+        <p>Aprendé desde cero</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#clases">Clases</a></li>
+            <li><a href="#opiniones">Opiniones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>Clases particulares de piano para todas las edades.</p>
+            <img src="piano.jpg" alt="piano" width="400">
+            <br>
+            <a href="#contacto">Contactame</a>
+        </section>
+
+        <section id="clases">
+            <h2>Nuestras Clases</h2>
+            <div class="flex-cards">
+                <div class="card">
+                    <img src="clase1.jpg" alt="piano clasico" width="200">
+                    <h3>Piano Clásico</h3>
+                    <p>Partituras y tecnica.</p>
+                    <p>$30.000</p>
+                </div>
+                <div class="card">
+                    <img src="clase2.jpeg" alt="piano moderno" width="200">
+                    <h3>Piano Moderno</h3>
+                    <p>Acordes y canciones.</p>
+                    <p>$28.000</p>
+                </div>
+                <div class="card">
+                    <img src="clase3.jpeg" alt="niños" width="200">
+                    <h3>Para Niños</h3>
+                    <p>Desde 7 años.</p>
+                    <p>$25.000</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="opiniones">
+            <h2>Opiniones</h2>
+            <div class="grid-resenas">
+                <div class="resena">
+                    <p>"Muy bueno"</p>
+                    <h4>- Ana</h4>
+                </div>
+                <div class="resena">
+                    <p>"Recomiendo"</p>
+                    <h4>- Lucas</h4>
+                </div>
+                <div class="resena">
+                    <p>"Excelente"</p>
+                    <h4>- Carla</h4>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-flex">
+                <form action="https://formspree.io/f/mjkvvgvb" method="POST">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <br>
+                    <textarea name="mensaje" rows="4" placeholder="Mensaje"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="info">
+                    <p>📞 11 2345 6789</p>
+                    <p>✉️ piano@gmail.com</p>
+                    <img src="mapa.jpg" alt="ubicacion" width="200">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+        <p>2026 - Clases de Piano</p>
+    </footer>
+
+</body>
+</html>
